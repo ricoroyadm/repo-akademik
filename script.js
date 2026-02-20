@@ -17,7 +17,7 @@ const links = {
     anisa: 'https://drive.google.com/drive/folders/19fMeZ_q5PyW8x23xZZic4ux1AnUNXmYA?usp=drive_link',
     ika: 'https://drive.google.com/drive/folders/1-GujStMYWpWQroCQZcXMbmMZW5qKTVnN?usp=drive_link',
     nikmah: 'https://drive.google.com/drive/folders/1kKw9xZ8O4MHaVcEVz8t-eDOS1w7zhP3S?usp=drive_link',
-    merry: 'https://drive.google.com/drive/folders/1kKw9xZ8O4MHaVcEVz8t-eDOS1w7zhP3S?usp=drive_link',
+    merry: 'https://drive.google.com/drive/folders/1fli5tPDNJv4KPxSe1fmLP4IgkYjbqGeF?usp=drive_link',
     yuli: 'https://drive.google.com/drive/folders/1EUhvi8Ndqtc9oaN3HCa1Aphvq1Vr983Q?usp=drive_link'
 };
 
