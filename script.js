@@ -18,7 +18,10 @@ const links = {
     ika: 'https://drive.google.com/drive/folders/1-GujStMYWpWQroCQZcXMbmMZW5qKTVnN?usp=drive_link',
     nikmah: 'https://drive.google.com/drive/folders/1kKw9xZ8O4MHaVcEVz8t-eDOS1w7zhP3S?usp=drive_link',
     merry: 'https://drive.google.com/drive/folders/1fli5tPDNJv4KPxSe1fmLP4IgkYjbqGeF?usp=drive_link',
-    yuli: 'https://drive.google.com/drive/folders/1EUhvi8Ndqtc9oaN3HCa1Aphvq1Vr983Q?usp=drive_link'
+    yuli: 'https://drive.google.com/drive/folders/1EUhvi8Ndqtc9oaN3HCa1Aphvq1Vr983Q?usp=drive_link',
+    rayhan: 'https://drive.google.com/drive/folders/1fzu_4EkEPzD9lkx6bEYJg6kq6UBmywO6?usp=drive_link',
+    suud: 'https://drive.google.com/drive/folders/1vYxfPzUAdN7UnIfpP8eQSAVClk5VUPJ9?usp=drive_link',
+    nico: 'https://drive.google.com/drive/folders/12THmQcnr3gSqb8cX3SPLrNpCVnXbbb5W?usp=drive_link'
 };
 
 // 2. Ambil semua elemen button
@@ -32,7 +35,10 @@ const btnAnisa = document.getElementById('btnAnisa');
 const btnIka = document.getElementById('btnIka');
 const btnNikmah = document.getElementById('btnNikmah');
 const btnMerry = document.getElementById('btnMerry');
-const btnYuli = document.getElementById('btnYuli')
+const btnYuli = document.getElementById('btnYuli');
+const btnRayhan = document.getElementById('btnRayhan');
+const btnSuud = document.getElementById('btnSuud');
+const btnNico = document.getElementById('btnNico')
 
 // 3. Pasang fungsi klik untuk masing-masing tombol
 btnAde.addEventListener('click', () => {
@@ -77,4 +83,16 @@ btnMerry.addEventListener('click', () => {
 
 btnYuli.addEventListener('click', () => {
     window.open(links.yuli, '_blank');
+});
+
+btnRayhan.addEventListener('click', () => {
+    window.open(links.rayhan, '_blank');
+});
+
+btnSuud.addEventListener('click', () => {
+    window.open(links.suud, '_blank');
+});
+
+btnNico.addEventListener('click', () => {
+    window.open(links.nico, '_blank');
 });
