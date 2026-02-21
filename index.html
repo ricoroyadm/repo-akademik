@@ -5,9 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akademik STIE Pemuda</title>
-    <link rel="icon" href="Logo_bulat_transparan.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="Logo_bulat_transparan.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style type="text/tailwindcss">
+        @layer components {
+            .btn-primary {
+               @apply bg-red-500 text-white font-semibold py-3 px-8 rounded-xl shadow-lg shadow-red-200 transition-all duration-300;
+               
+               @apply hover:bg-red-600 hover:-translate-y-1 hover:shadow-red-300;
+               
+               @apply active:scale-95 focus:ring-4 focus:ring-red-300 outline-none;
+            }
+        }
+    </style>
     <style>
         .dropdown:hover .dropdown-menu {
             display: block;
@@ -16,7 +27,6 @@
 </head>
 
 <body class="bg-gray-50 text-gray-800">
-
     <!-- Navbar -->
     <nav class="bg-white text-gray-800 sticky top-0 z-50 shadow-md border-b-2 border-red-600">
         <div class="bg-red-700 text-white text-xs py-2 hidden md:block">
@@ -25,46 +35,18 @@
                 <span><i class="fa fa-phone mr-2"></i> +62 823-3838-5299</span>
             </div>
         </div>
-
         <div class="container mx-auto px-8 py-4 flex">
             <img src="Logo.png" alt="logo" class="h-16">
             <a href="https://akademik-stiepemuda.vercel.app/"
                 class="text-2xl font-extrabold tracking-tighter text-red-600 px-4 grow">AKADEMIK<br><span
                     class="text-gray-900 uppercase">STIEPEMUDA</span></a>
-
-            <!-- <ul class="hidden md:flex space-x-8 text-sm font-bold uppercase tracking-wide">
-                <li class="hover:text-red-600 transition"><a href="#">Profil</a></li>
-                <li class="relative dropdown">
-                    <a href="#" class="hover:text-red-600 flex items-center">Akademik <i
-                            class="fa fa-chevron-down ml-1 text-xs"></i></a>
-                    <div
-                        class="dropdown-menu absolute hidden bg-white text-gray-800 shadow-2xl mt-4 py-2 w-48 rounded border-t-4 border-red-600">
-                        <a href="#" class="block px-4 py-2 hover:bg-red-50 hover:text-red-600">Fakultas</a>
-                        <a href="#" class="block px-4 py-2 hover:bg-red-50 hover:text-red-600">Kalender Akademik</a>
-                        <a href="#" class="block px-4 py-2 hover:bg-red-50 hover:text-red-600">Kurikulum</a>
-                    </div>
-                </li>
-                <li class="relative dropdown">
-                    <a href="#" class="hover:text-red-600 flex items-center">Admissions <i
-                            class="fa fa-chevron-down ml-1 text-xs"></i></a>
-                    <div
-                        class="dropdown-menu absolute hidden bg-white text-gray-800 shadow-2xl mt-4 py-2 w-48 rounded border-t-4 border-red-600">
-                        <a href="#" class="block px-4 py-2 hover:bg-red-50 hover:text-red-600">Jalur Pendaftaran</a>
-                        <a href="#" class="block px-4 py-2 hover:bg-red-50 hover:text-red-600">Biaya Kuliah</a>
-                        <a href="#" class="block px-4 py-2 hover:bg-red-50 hover:text-red-600">Beasiswa</a>
-                    </div>
-                </li>
-                <li class="hover:text-red-600 transition"><a href="#">Riset</a></li>
-            </ul> -->
             <div class="flex items-center">
                 <a href="#"
                     class="bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded-full font-bold text-sm transition shadow-lg">Login
                     SIAKAD</a>
             </div>
-
         </div>
     </nav>
-
     <header class="relative bg-white overflow-hidden">
         <div class="container place-content-center mx-auto px-6 py-20 flex flex-col md:flex-row items-center">
             <div class="md:w-75 z-10 text-center">
@@ -72,54 +54,45 @@
                     Link Jurnal & Daftar Hadir Perkuliahan
                 </h1>
                 <div class="grid grid-cols-1 px-16 gap-6 text-xl">
-                    <button id="btnAde"
-                        class="bg-red-600 py-4 text-white rounded-full font-bold hover:bg-red-700 transition">Ade Dwi
-                        Rahmadi, S.E., M.Ak
-                    </button>
-                    <button id="btnEka"
-                        class="bg-red-600 py-4 text-white rounded-full font-bold hover:bg-red-700 transition">Eka
-                        Mayasari, S.E., M.Ak
-                    </button>
-                    <button id="btnLis"
-                        class="bg-red-600 py-4 text-white rounded-full font-bold hover:bg-red-700 transition">Hj. Lis
-                        Setyowati, S.E., M.S.A
-                    </button>
-                    <button id="btnIka"
-                        class="bg-red-600 py-4 text-white rounded-full font-bold hover:bg-red-700 transition">Ikayanti,
-                        S.E.I., S.E., M.S.A
-                    </button>
-                    <button id="btnNikmah"
-                        class="bg-red-600 py-4 text-white rounded-full font-bold hover:bg-red-700 transition">Lailatul
-                        Nikmah, S.Pd., M.Si
-                    </button>
-                    <button id="btnMerry"
-                        class="bg-red-600 py-4 text-white rounded-full font-bold hover:bg-red-700 transition">Merry Diaz
-                        Angelia, S.E., M.M
-                    </button>
-                    <button id="btnAnisa"
-                        class="bg-red-600 py-4 text-white rounded-full font-bold hover:bg-red-700 transition">Nur Aini
-                        Anisa, S.Pd., M.Pd
-                    </button>
-                    <button id="btnRika"
-                        class="bg-red-600 py-4 text-white rounded-full font-bold hover:bg-red-700 transition">Rika
-                        Liftiana, S.E., M.M
-                    </button>
-                    <button id="btnRubi"
-                        class="bg-red-600 py-4 text-white rounded-full font-bold hover:bg-red-700 transition">Rubingatun,
-                        S.E., M.M
-                    </button>
-                    <button id="btnNurna"
-                        class="bg-red-600 py-4 text-white rounded-full font-bold hover:bg-red-700 transition">S.
-                        Nurnaningsih, S.Pd
-                    </button>
-                    <button id="btnYuli"
-                        class="bg-red-600 py-4 text-white rounded-full font-bold hover:bg-red-700 transition">Yuli Dwi
-                        Nur Aini, S.Kom
-                    </button>
-                    <!-- <button class="bg-white text-red-600 border-2 border-red-600 px-8 py-4 rounded font-bold hover:bg-red-50 transition">Lihat Fasilitas</button> -->
+                    <button id="btnAde" class="btn-primary">Ade Dwi Rahmadi, S.E., M.Ak</button>
+                    <button id="btnEka" class="btn-primary">Eka Mayasari, S.E., M.Ak</button>
+                    <button id="btnLis" class="btn-primary">Hj. Lis Setyowati, S.E., M.S.A</button>
+                    <button id="btnIka" class="btn-primary">Ikayanti, S.E.I., S.E., M.S.A </button>
+                    <button id="btnNikmah" class="btn-primary">Lailatul Nikmah, S.Pd., M.Si </button>
+                    <button id="btnMerry" class="btn-primary">Merry Diaz Angelia, S.E., M.M </button>
+                    <button id="btnAnisa" class="btn-primary">Nur Aini Anisa, S.Pd., M.Pd </button>
+                    <button id="btnRika" class="btn-primary">Rika Liftiana, S.E., M.M </button>
+                    <button id="btnRubi" class="btn-primary">Rubingatun, S.E., M.M </button>
+                    <button id="btnNurna" class="btn-primary">S. Nurnaningsih, S.Pd </button>
+                    <button id="btnYuli" class="btn-primary">Yuli Dwi Nur Aini, S.Kom </button>
                 </div>
             </div>
             <!-- Icon Kampus Abu Abu -->
+            <!-- <ul class="hidden md:flex space-x-8 text-sm font-bold uppercase tracking-wide">
+                            <li class="hover:text-red-600 transition"><a href="#">Profil</a></li>
+                            <li class="relative dropdown">
+                                <a href="#" class="hover:text-red-600 flex items-center">Akademik <i
+                                        class="fa fa-chevron-down ml-1 text-xs"></i></a>
+                                <div
+                                    class="dropdown-menu absolute hidden bg-white text-gray-800 shadow-2xl mt-4 py-2 w-48 rounded border-t-4 border-red-600">
+                                    <a href="#" class="block px-4 py-2 hover:bg-red-50 hover:text-red-600">Fakultas</a>
+                                    <a href="#" class="block px-4 py-2 hover:bg-red-50 hover:text-red-600">Kalender Akademik</a>
+                                    <a href="#" class="block px-4 py-2 hover:bg-red-50 hover:text-red-600">Kurikulum</a>
+                                </div>
+                            </li>
+                            <li class="relative dropdown">
+                                <a href="#" class="hover:text-red-600 flex items-center">Admissions <i
+                                        class="fa fa-chevron-down ml-1 text-xs"></i></a>
+                                <div
+                                    class="dropdown-menu absolute hidden bg-white text-gray-800 shadow-2xl mt-4 py-2 w-48 rounded border-t-4 border-red-600">
+                                    <a href="#" class="block px-4 py-2 hover:bg-red-50 hover:text-red-600">Jalur Pendaftaran</a>
+                                    <a href="#" class="block px-4 py-2 hover:bg-red-50 hover:text-red-600">Biaya Kuliah</a>
+                                    <a href="#" class="block px-4 py-2 hover:bg-red-50 hover:text-red-600">Beasiswa</a>
+                                </div>
+                            </li>
+                            <li class="hover:text-red-600 transition"><a href="#">Riset</a></li>
+                        </ul> -->
+            <!-- <button class="bg-white text-red-600 border-2 border-red-600 px-8 py-4 rounded font-bold hover:bg-red-50 transition">Lihat Fasilitas</button> -->
             <!-- <div class="md:w-1/2 mt-12 md:mt-0 relative">
                 <div class="w-full h-80 bg-gray-200 rounded-2xl shadow-2xl flex items-center justify-center text-gray-400 overflow-hidden">
                     <i class="fa fa-university text-9xl"></i>
@@ -128,7 +101,6 @@
             </div> -->
         </div>
     </header>
-
     <!-- Footer -->
     <!-- <section class="bg-red-600 py-16">
         <div class="container mx-auto px-6 grid md:grid-cols-3 gap-12 text-white">
@@ -141,9 +113,7 @@
             </div>
             <div class="flex items-start space-x-4">
                 <div class="bg-white p-3 -->
-
     <script src="script.js"></script>
 </body>
-
 
 </html>
