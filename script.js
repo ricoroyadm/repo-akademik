@@ -21,7 +21,8 @@ const links = {
     yuli: 'https://drive.google.com/drive/folders/1EUhvi8Ndqtc9oaN3HCa1Aphvq1Vr983Q?usp=drive_link',
     rayhan: 'https://drive.google.com/drive/folders/1fzu_4EkEPzD9lkx6bEYJg6kq6UBmywO6?usp=drive_link',
     suud: 'https://drive.google.com/drive/folders/1vYxfPzUAdN7UnIfpP8eQSAVClk5VUPJ9?usp=drive_link',
-    nico: 'https://drive.google.com/drive/folders/12THmQcnr3gSqb8cX3SPLrNpCVnXbbb5W?usp=drive_link'
+    nico: 'https://drive.google.com/drive/folders/12THmQcnr3gSqb8cX3SPLrNpCVnXbbb5W?usp=drive_link',
+    kurnia: 'https://drive.google.com/drive/folders/15vERGCruo9SwLo_9ZjFQ504g3Ka7sABM?usp=drive_link'
 };
 
 // 2. Ambil semua elemen button
@@ -38,7 +39,8 @@ const btnMerry = document.getElementById('btnMerry');
 const btnYuli = document.getElementById('btnYuli');
 const btnRayhan = document.getElementById('btnRayhan');
 const btnSuud = document.getElementById('btnSuud');
-const btnNico = document.getElementById('btnNico')
+const btnNico = document.getElementById('btnNico');
+const btnKurnia = document.getElementById('btnKurnia')
 
 // 3. Pasang fungsi klik untuk masing-masing tombol
 btnAde.addEventListener('click', () => {
@@ -95,4 +97,8 @@ btnSuud.addEventListener('click', () => {
 
 btnNico.addEventListener('click', () => {
     window.open(links.nico, '_blank');
+});
+
+btnKurnia.addEventListener('click', () => {
+    window.open(links.kurniaurnia, '_blank');
 });
