@@ -100,5 +100,5 @@ btnNico.addEventListener('click', () => {
 });
 
 btnKurnia.addEventListener('click', () => {
-    window.open(links.kurniaurnia, '_blank');
+    window.open(links.kurnia, '_blank');
 });
