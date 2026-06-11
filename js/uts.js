@@ -1,8 +1,8 @@
 // 1. Kumpulan URL dalam satu variabel objek
 const links = {
   Indo: "https://forms.gle/fjKTKMStHo3zcFAu5",
-  eka: "https://drive.google.com/drive/folders/1z8hD_YWJiGR_gGrXaFelQm0IQgQSezDD?usp=drive_link",
-  lis: "https://drive.google.com/drive/folders/1kGUTYmyiyiHKfnFtx1iZLPaPGTqXnFhl?usp=drive_link",
+  Makro: "https://forms.gle/gmiSwBgyXKNVNm3f8",
+  Mtk: "https://forms.gle/47Qg4jYStEAqMY1L6",
   lisM: "https://drive.google.com/drive/folders/12Uv7sLzKG-DQK_kyTsbihsE95stn1Z9P?usp=drive_link",
   rika: "https://drive.google.com/drive/folders/1QNg8_HG-osbpB-FBWKpg-xLHUC7c5Weg?usp=drive_link",
   rikaM: "https://drive.google.com/drive/folders/1G3Uk4PVHd2xiP4b0u_yS13qeiWARVuLg?usp=drive_link",
