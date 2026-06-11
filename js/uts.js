@@ -47,15 +47,15 @@ const links = {
 const btnIndo = document.getElementById("btnIndo");
 const btnEka = document.getElementById("btnEka");
 const btnLis = document.getElementById("btnLis");
-const btnLisM = document.getElementById("btnLisM");
+const btnRsk = document.getElementById("btnRsk");
 const btnRika = document.getElementById("btnRika");
 const btnRikaM = document.getElementById("btnRikaM");
-const btnNurna = document.getElementById("btnNurna");
+const btnBiaya = document.getElementById("btnBiaya");
 const btnRubi = document.getElementById("btnRubi");
-const btnRubiM = document.getElementById("btnRubiM");
+const btnBisInt = document.getElementById("btnBisInt");
 const btnAnisa = document.getElementById("btnAnisa");
 const btnAnisaM = document.getElementById("btnAnisaM");
-const btnIka = document.getElementById("btnIka");
+const btnAkM = document.getElementById("btnAkM");
 const btnIkaM = document.getElementById("btnIkaM");
 const btnNikmah = document.getElementById("btnNikmah");
 const btnMerry = document.getElementById("btnMerry");
@@ -99,8 +99,8 @@ btnLis.addEventListener("click", () => {
   window.open(links.lis, "_blank");
 });
 
-btnLisM.addEventListener("click", () => {
-  window.open(links.lisM, "_blank");
+btnRsk.addEventListener("click", () => {
+  window.open(links.Rsk, "_blank");
 });
 
 btnRika.addEventListener("click", () => {
@@ -111,16 +111,16 @@ btnRikaM.addEventListener("click", () => {
   window.open(links.rikaM, "_blank");
 });
 
-btnNurna.addEventListener("click", () => {
-  window.open(links.nurna, "_blank");
+btnBiaya.addEventListener("click", () => {
+  window.open(links.Biaya, "_blank");
 });
 
 btnRubi.addEventListener("click", () => {
   window.open(links.rubi, "_blank");
 });
 
-btnRubiM.addEventListener("click", () => {
-  window.open(links.rubiM, "_blank");
+btnBisInt.addEventListener("click", () => {
+  window.open(links.BisInt, "_blank");
 });
 
 btnAnisa.addEventListener("click", () => {
@@ -131,8 +131,8 @@ btnAnisaM.addEventListener("click", () => {
   window.open(links.anisaM, "_blank");
 });
 
-btnIka.addEventListener("click", () => {
-  window.open(links.ika, "_blank");
+btnAkM.addEventListener("click", () => {
+  window.open(links.AkM, "_blank");
 });
 
 btnIkaM.addEventListener("click", () => {
