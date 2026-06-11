@@ -17,6 +17,9 @@ const links = {
   EKK: "https://forms.gle/ETR2mPB9PZWrjfRg7",
   MKI: "https://forms.gle/gvegxRUWYxn4KUh66",
   MLB: "https://forms.gle/puZAufqkS2fLQg8PA",
+  BLK: "https://forms.gle/eXWyPwTu2BiZ4EDQ7",
+  StrP: "https://forms.gle/N4aime4H97wyBy9u6",
+  Smn: "https://forms.gle/wSmL9MW2FQgFu1uGA",
 };
 
 // 2. Ambil semua elemen button
@@ -36,6 +39,10 @@ const btnRO = document.getElementById("btnRO");
 const btnAspekHkm = document.getElementById("btnAspekHkm");
 const btnEKK = document.getElementById("btnEKK");
 const btnMKI = document.getElementById("btnMKI");
+const btnMLB = document.getElementById("btnMKI");
+const btnBLK = document.getElementById("btnBLK");
+const btnStrP = document.getElementById("btnStrP");
+const btnSmn = document.getElementById("btnSmn");
 
 // 3. Pasang fungsi klik untuk masing-masing tombol
 btnIndo.addEventListener("click", () => {
@@ -100,4 +107,16 @@ btnEKK.addEventListener("click", () => {
 
 btnMKI.addEventListener("click", () => {
   window.open(links.MKI, "_blank");
+});
+
+btnBLK.addEventListener("click", () => {
+  window.open(links.BLK, "_blank");
+});
+
+btnStrP.addEventListener("click", () => {
+  window.open(links.StrP, "_blank");
+});
+
+btnSmn.addEventListener("click", () => {
+  window.open(links.Smn, "_blank");
 });
