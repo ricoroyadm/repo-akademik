@@ -9,7 +9,7 @@ const links = {
   Biaya: "https://forms.gle/wGfpeD64EqB9SWSA7",
   MSDM: "https://forms.gle/twbMRd7Q4RH6JpSG8",
   BisInt: "https://forms.gle/Kn7prAoxfZmtrnNP8",
-  Akm: "https://forms.gle/DyRzAMfTBaFsayiQ6",
+  AkM: "https://forms.gle/DyRzAMfTBaFsayiQ6",
   Mutu: "https://forms.gle/Gs9zazEEYRBF7KGv6",
   MPar: "https://forms.gle/dsVuuZgybiZy94hv7",
 };
