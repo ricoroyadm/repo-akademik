@@ -39,7 +39,7 @@ const btnRO = document.getElementById("btnRO");
 const btnAspekHkm = document.getElementById("btnAspekHkm");
 const btnEKK = document.getElementById("btnEKK");
 const btnMKI = document.getElementById("btnMKI");
-const btnMLB = document.getElementById("btnMKI");
+const btnMLB = document.getElementById("btnMLB");
 const btnBLK = document.getElementById("btnBLK");
 const btnStrP = document.getElementById("btnStrP");
 const btnSmn = document.getElementById("btnSmn");
@@ -107,6 +107,10 @@ btnEKK.addEventListener("click", () => {
 
 btnMKI.addEventListener("click", () => {
   window.open(links.MKI, "_blank");
+});
+
+btnMLB.addEventListener("click", () => {
+  window.open(links.MLB, "_blank");
 });
 
 btnBLK.addEventListener("click", () => {
