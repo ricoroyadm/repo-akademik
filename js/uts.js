@@ -61,7 +61,7 @@ const btnNikmah = document.getElementById("btnNikmah");
 const btnMutu = document.getElementById("btnMutu");
 const btnMerryM = document.getElementById("btnMerryM");
 const btnYuli = document.getElementById("btnYuli");
-const btnRayhan = document.getElementById("btnRayhan");
+const btnMPar = document.getElementById("btnMPar");
 const btnSuud = document.getElementById("btnSuud");
 const btnNico = document.getElementById("btnNico");
 const btnKurnia = document.getElementById("btnKurnia");
@@ -155,8 +155,8 @@ btnYuli.addEventListener("click", () => {
   window.open(links.yuli, "_blank");
 });
 
-btnRayhan.addEventListener("click", () => {
-  window.open(links.rayhan, "_blank");
+btnMPar.addEventListener("click", () => {
+  window.open(links.MPar, "_blank");
 });
 
 btnSuud.addEventListener("click", () => {
