@@ -17,12 +17,15 @@ const links = {
 // 2. Ambil semua elemen button
 const btnIndo = document.getElementById("btnIndo");
 const btnRsk = document.getElementById("btnRsk");
+const btnBiaya = document.getElementById("btnBiaya");
 const btnBisInt = document.getElementById("btnBisInt");
 const btnAkM = document.getElementById("btnAkM");
 const btnMutu = document.getElementById("btnMutu");
 const btnMPar = document.getElementById("btnMPar");
 const btnMakro = document.getElementById("btnMakro");
 const btnMtk = document.getElementById("btnMtk");
+const btnApl = document.getElementById("btnApl");
+const btnIAD = document.getElementById("btnIAD");
 
 // 3. Pasang fungsi klik untuk masing-masing tombol
 btnIndo.addEventListener("click", () => {
@@ -59,4 +62,12 @@ btnMakro.addEventListener("click", () => {
 
 btnMtk.addEventListener("click", () => {
   window.open(links.Mtk, "_blank");
+});
+
+btnApl.addEventListener("click", () => {
+  window.open(links.Apl, "_blank");
+});
+
+btnIAD.addEventListener("click", () => {
+  window.open(links.IAD, "_blank");
 });
