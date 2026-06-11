@@ -21,6 +21,8 @@ const btnBisInt = document.getElementById("btnBisInt");
 const btnAkM = document.getElementById("btnAkM");
 const btnMutu = document.getElementById("btnMutu");
 const btnMPar = document.getElementById("btnMPar");
+const btnMakro = document.getElementById("btnMakro");
+const btnMtk = document.getElementById("btnMtk");
 
 // 3. Pasang fungsi klik untuk masing-masing tombol
 btnIndo.addEventListener("click", () => {
@@ -49,4 +51,12 @@ btnMutu.addEventListener("click", () => {
 
 btnMPar.addEventListener("click", () => {
   window.open(links.MPar, "_blank");
+});
+
+btnMakro.addEventListener("click", () => {
+  window.open(links.Makro, "_blank");
+});
+
+btnMtk.addEventListener("click", () => {
+  window.open(links.Mtk, "_blank");
 });
