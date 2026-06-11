@@ -45,208 +45,38 @@ const links = {
 
 // 2. Ambil semua elemen button
 const btnIndo = document.getElementById("btnIndo");
-const btnEka = document.getElementById("btnEka");
-const btnLis = document.getElementById("btnLis");
+
 const btnRsk = document.getElementById("btnRsk");
-const btnRika = document.getElementById("btnRika");
-const btnRikaM = document.getElementById("btnRikaM");
-const btnBiaya = document.getElementById("btnBiaya");
-const btnRubi = document.getElementById("btnRubi");
 const btnBisInt = document.getElementById("btnBisInt");
-const btnAnisa = document.getElementById("btnAnisa");
-const btnAnisaM = document.getElementById("btnAnisaM");
 const btnAkM = document.getElementById("btnAkM");
-const btnIkaM = document.getElementById("btnIkaM");
-const btnNikmah = document.getElementById("btnNikmah");
 const btnMutu = document.getElementById("btnMutu");
-const btnMerryM = document.getElementById("btnMerryM");
-const btnYuli = document.getElementById("btnYuli");
 const btnMPar = document.getElementById("btnMPar");
-const btnSuud = document.getElementById("btnSuud");
-const btnNico = document.getElementById("btnNico");
-const btnKurnia = document.getElementById("btnKurnia");
-const btnAisyahM = document.getElementById("btnAisyahM");
-const btnAndrikM = document.getElementById("btnAndrikM");
-const btnAyiM = document.getElementById("btnAyiM");
-const btnBasukiM = document.getElementById("btnBasukiM");
-const btnChairilM = document.getElementById("btnChairilM");
-const btnDanangM = document.getElementById("btnDanangM");
-const btnDennyM = document.getElementById("btnDennyM");
-const btnNuryadiM = document.getElementById("btnNuryadiM");
-const btnOnyM = document.getElementById("btnOnyM");
-const btnBinarM = document.getElementById("btnBinarM");
-const btnPriyoM = document.getElementById("btnPriyoM");
-const btnIndriyaM = document.getElementById("btnIndriyaM");
-const btnIntanM = document.getElementById("btnIntanM");
-const btnKomarunM = document.getElementById("btnKomarunM");
-const btnLelliM = document.getElementById("btnLelliM");
-const btnMundariM = document.getElementById("btnMundariM");
-const btnFaridaM = document.getElementById("btnFaridaM");
-const btnNoeM = document.getElementById("btnNoeM");
-const btnSisM = document.getElementById("btnSisM");
-const btnSyamM = document.getElementById("btnSyamM");
 
 // 3. Pasang fungsi klik untuk masing-masing tombol
 btnIndo.addEventListener("click", () => {
   window.open(links.Indo, "_blank");
 });
 
-btnEka.addEventListener("click", () => {
-  window.open(links.eka, "_blank");
-});
-
-btnLis.addEventListener("click", () => {
-  window.open(links.lis, "_blank");
-});
-
 btnRsk.addEventListener("click", () => {
   window.open(links.Rsk, "_blank");
-});
-
-btnRika.addEventListener("click", () => {
-  window.open(links.rika, "_blank");
-});
-
-btnRikaM.addEventListener("click", () => {
-  window.open(links.rikaM, "_blank");
 });
 
 btnBiaya.addEventListener("click", () => {
   window.open(links.Biaya, "_blank");
 });
 
-btnRubi.addEventListener("click", () => {
-  window.open(links.rubi, "_blank");
-});
-
 btnBisInt.addEventListener("click", () => {
   window.open(links.BisInt, "_blank");
-});
-
-btnAnisa.addEventListener("click", () => {
-  window.open(links.anisa, "_blank");
-});
-
-btnAnisaM.addEventListener("click", () => {
-  window.open(links.anisaM, "_blank");
 });
 
 btnAkM.addEventListener("click", () => {
   window.open(links.AkM, "_blank");
 });
 
-btnIkaM.addEventListener("click", () => {
-  window.open(links.ikaM, "_blank");
-});
-
-btnNikmah.addEventListener("click", () => {
-  window.open(links.nikmah, "_blank");
-});
-
 btnMutu.addEventListener("click", () => {
   window.open(links.Mutu, "_blank");
 });
 
-btnMerryM.addEventListener("click", () => {
-  window.open(links.merryM, "_blank");
-});
-
-btnYuli.addEventListener("click", () => {
-  window.open(links.yuli, "_blank");
-});
-
 btnMPar.addEventListener("click", () => {
   window.open(links.MPar, "_blank");
-});
-
-btnSuud.addEventListener("click", () => {
-  window.open(links.suud, "_blank");
-});
-
-btnNico.addEventListener("click", () => {
-  window.open(links.nico, "_blank");
-});
-
-btnKurnia.addEventListener("click", () => {
-  window.open(links.kurnia, "_blank");
-});
-
-btnAisyahM.addEventListener("click", () => {
-  window.open(links.AisyahM, "_blank");
-});
-
-btnAndrikM.addEventListener("click", () => {
-  window.open(links.AndrikM, "_blank");
-});
-
-btnAyiM.addEventListener("click", () => {
-  window.open(links.AyiM, "_blank");
-});
-
-btnBasukiM.addEventListener("click", () => {
-  window.open(links.BasukiM, "_blank");
-});
-
-btnChairilM.addEventListener("click", () => {
-  window.open(links.ChairilM, "_blank");
-});
-
-btnDanangM.addEventListener("click", () => {
-  window.open(links.DanangM, "_blank");
-});
-
-btnDennyM.addEventListener("click", () => {
-  window.open(links.DennyM, "_blank");
-});
-
-btnNuryadiM.addEventListener("click", () => {
-  window.open(links.NuryadiM, "_blank");
-});
-
-btnOnyM.addEventListener("click", () => {
-  window.open(links.OnyM, "_blank");
-});
-
-btnBinarM.addEventListener("click", () => {
-  window.open(links.BinarM, "_blank");
-});
-
-btnPriyoM.addEventListener("click", () => {
-  window.open(links.PriyoM, "_blank");
-});
-
-btnIndriyaM.addEventListener("click", () => {
-  window.open(links.IndriyaM, "_blank");
-});
-
-btnIntanM.addEventListener("click", () => {
-  window.open(links.IntanM, "_blank");
-});
-
-btnKomarunM.addEventListener("click", () => {
-  window.open(links.KomarunM, "_blank");
-});
-
-btnLelliM.addEventListener("click", () => {
-  window.open(links.LelliM, "_blank");
-});
-
-btnMundariM.addEventListener("click", () => {
-  window.open(links.MundariM, "_blank");
-});
-
-btnFaridaM.addEventListener("click", () => {
-  window.open(links.FaridaM, "_blank");
-});
-
-btnNoeM.addEventListener("click", () => {
-  window.open(links.NoeM, "_blank");
-});
-
-btnSisM.addEventListener("click", () => {
-  window.open(links.SisM, "_blank");
-});
-
-btnSyamM.addEventListener("click", () => {
-  window.open(links.SyamM, "_blank");
 });
