@@ -26,6 +26,7 @@ const btnMakro = document.getElementById("btnMakro");
 const btnMtk = document.getElementById("btnMtk");
 const btnApl = document.getElementById("btnApl");
 const btnIAD = document.getElementById("btnIAD");
+const btnMSDM = document.getElementById("btnMSDM");
 
 // 3. Pasang fungsi klik untuk masing-masing tombol
 btnIndo.addEventListener("click", () => {
@@ -70,4 +71,8 @@ btnApl.addEventListener("click", () => {
 
 btnIAD.addEventListener("click", () => {
   window.open(links.IAD, "_blank");
+});
+
+btnMSDM.addEventListener("click", () => {
+  window.open(links.MSDM, "_blank");
 });
