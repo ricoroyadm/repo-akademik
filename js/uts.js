@@ -58,7 +58,7 @@ const btnAnisaM = document.getElementById("btnAnisaM");
 const btnAkM = document.getElementById("btnAkM");
 const btnIkaM = document.getElementById("btnIkaM");
 const btnNikmah = document.getElementById("btnNikmah");
-const btnMerry = document.getElementById("btnMerry");
+const btnMutu = document.getElementById("btnMutu");
 const btnMerryM = document.getElementById("btnMerryM");
 const btnYuli = document.getElementById("btnYuli");
 const btnRayhan = document.getElementById("btnRayhan");
@@ -143,8 +143,8 @@ btnNikmah.addEventListener("click", () => {
   window.open(links.nikmah, "_blank");
 });
 
-btnMerry.addEventListener("click", () => {
-  window.open(links.merry, "_blank");
+btnMutu.addEventListener("click", () => {
+  window.open(links.Mutu, "_blank");
 });
 
 btnMerryM.addEventListener("click", () => {
