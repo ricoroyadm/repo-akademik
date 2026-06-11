@@ -16,6 +16,7 @@ const links = {
   AspekHkm: "https://forms.gle/n1ZfSCHMiXtXvJAj8",
   EKK: "https://forms.gle/ETR2mPB9PZWrjfRg7",
   MKI: "https://forms.gle/gvegxRUWYxn4KUh66",
+  MLB: "https://forms.gle/puZAufqkS2fLQg8PA",
 };
 
 // 2. Ambil semua elemen button
