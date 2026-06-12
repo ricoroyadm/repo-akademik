@@ -14,6 +14,13 @@ const links = {
   PIntr: "https://forms.gle/it95RRUJ1tPNMchw6",
   TPK: "https://forms.gle/AT1xQqwzLrDKdeeG6",
   Kwu: "https://forms.gle/UUJ783uMjL42nGUk6",
+  PAk1: "https://forms.gle/mKfPKazJonrSqEfL7",
+  PBis: "https://forms.gle/qf7beEoiuRBzZjj56",
+  MO: "https://forms.gle/GqpzKqSsRwM3gMdS8",
+  KomBis: "https://forms.gle/R6kt4kW7BWqCaK6g6",
+  PP: "https://forms.gle/fVM2Ryb7oUaMijiW6",
+  SKB: "https://forms.gle/pPCrCPc3xM9CkdfE8",
+  PMS: "https://forms.gle/j9TmJQ74FnQm9Bzp8",
 };
 
 // 2. Ambil semua elemen button
@@ -30,6 +37,13 @@ const btnEB = document.getElementById("btnEB");
 const btnPIntr = document.getElementById("btnPIntr");
 const btnTPK = document.getElementById("btnTPK");
 const btnKwu = document.getElementById("btnKwu");
+const btnPAk1 = document.getElementById("btnPAk1");
+const btnPBis = document.getElementById("btnPBis");
+const btnMO = document.getElementById("btnMO");
+const btnKomBis = document.getElementById("btnKomBis");
+const btnPP = document.getElementById("btnPP");
+const btnSKB = document.getElementById("btnSKB");
+const btnPMS = document.getElementById("btnPMS");
 
 // 3. Pasang fungsi klik untuk masing-masing tombol
 btnPMnj.addEventListener("click", () => {
@@ -86,4 +100,32 @@ btnTPK.addEventListener("click", () => {
 
 btnKwu.addEventListener("click", () => {
   window.open(links.Kwu, "_blank");
+});
+
+btnPAk1.addEventListener("click", () => {
+  window.open(links.PAk1, "_blank");
+});
+
+btnPBis.addEventListener("click", () => {
+  window.open(links.PBis, "_blank");
+});
+
+btnMO.addEventListener("click", () => {
+  window.open(links.MO, "_blank");
+});
+
+btnKomBis.addEventListener("click", () => {
+  window.open(links.KomBis, "_blank");
+});
+
+btnPP.addEventListener("click", () => {
+  window.open(links.PP, "_blank");
+});
+
+btnSKB.addEventListener("click", () => {
+  window.open(links.SKB, "_blank");
+});
+
+btnPMS.addEventListener("click", () => {
+  window.open(links.PMS, "_blank");
 });
