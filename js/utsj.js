@@ -7,16 +7,29 @@ const links = {
   MetPen: "https://forms.gle/3S8eCkbqNrLVD9us6",
   POrg: "https://forms.gle/AZF5HSgUBYKKgvc16",
   MPJ: "https://forms.gle/nEM2aukQGaS9kHxf9",
+  Stat1: "https://forms.gle/DRXTX936CM82Vk6R6",
+  PAk2: "https://forms.gle/L1msoCn1TGq8Uhcq6",
+  MPmsr: "https://forms.gle/c9zAvpBX9L31xgZ9A",
+  EB: "https://forms.gle/CWGqjkCQDnk85Jbw5",
+  PIntr: "https://forms.gle/it95RRUJ1tPNMchw6",
+  TPK: "https://forms.gle/AT1xQqwzLrDKdeeG6",
+  Kwu: "https://forms.gle/UUJ783uMjL42nGUk6",
 };
 
 // 2. Ambil semua elemen button
 const btnPMnj = document.getElementById("btnPMnj");
 const btnStat2 = document.getElementById("btnStat2");
-const EK = document.getElementById("EK");
-const MK2 = document.getElementById("MK2");
-const MetPen = document.getElementById("MetPen");
-const POrg = document.getElementById("POrg");
-const MPJ = document.getElementById("MPJ");
+const btnEK = document.getElementById("btnEK");
+const btnMK2 = document.getElementById("btnMK2");
+const btnMetPen = document.getElementById("btnMetPen");
+const btnPOrg = document.getElementById("btnPOrg");
+const btnMPJ = document.getElementById("btnMPJ");
+const btnStat1 = document.getElementById("btnStat1");
+const btnPAk2 = document.getElementById("btnPAk2");
+const btnEB = document.getElementById("btnEB");
+const btnPIntr = document.getElementById("btnPIntr");
+const btnTPK = document.getElementById("btnTPK");
+const btnKwu = document.getElementById("btnKwu");
 
 // 3. Pasang fungsi klik untuk masing-masing tombol
 btnPMnj.addEventListener("click", () => {
@@ -45,4 +58,32 @@ btnPOrg.addEventListener("click", () => {
 
 btnMPJ.addEventListener("click", () => {
   window.open(links.MPJ, "_blank");
+});
+
+btnStat1.addEventListener("click", () => {
+  window.open(links.Stat1, "_blank");
+});
+
+btnPAk2.addEventListener("click", () => {
+  window.open(links.PAk2, "_blank");
+});
+
+btnMPmsr.addEventListener("click", () => {
+  window.open(links.MPmsr, "_blank");
+});
+
+btnEB.addEventListener("click", () => {
+  window.open(links.EB, "_blank");
+});
+
+btnPIntr.addEventListener("click", () => {
+  window.open(links.PIntr, "_blank");
+});
+
+btnTPK.addEventListener("click", () => {
+  window.open(links.TPK, "_blank");
+});
+
+btnKwu.addEventListener("click", () => {
+  window.open(links.Kwu, "_blank");
 });
