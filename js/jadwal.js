@@ -8,8 +8,8 @@
 
 // 1. Kumpulan URL dalam satu variabel objek
 const links = {
-  jadM: "https://drive.google.com/file/d/1JmYcNKcHHwfaemhGpWo9OHekSdZzOFCT/view?usp=drive_link",
-  jadUTS: "https://akademik-stiepemuda.vercel.app/ujian",
+  JadM: "https://drive.google.com/file/d/1JmYcNKcHHwfaemhGpWo9OHekSdZzOFCT/view?usp=drive_link",
+  JadUTS: "https://akademik-stiepemuda.vercel.app/ujian",
 };
 
 // 2. Ambil semua elemen button
