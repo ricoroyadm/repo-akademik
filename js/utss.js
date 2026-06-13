@@ -93,6 +93,10 @@ btnPPSDM.addEventListener("click", () => {
   window.open(links.PPSDM, "_blank");
 });
 
+btnKssMnj.addEventListener("click", () => {
+  window.open(links.KssMnj, "_blank");
+});
+
 btnPPO.addEventListener("click", () => {
   window.open(links.PPO, "_blank");
 });
