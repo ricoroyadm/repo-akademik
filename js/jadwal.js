@@ -17,6 +17,10 @@ const btnJadM = document.getElementById("btnJadM");
 const btnJadUTS = document.getElementById("btnJadUTS");
 
 // 3. Pasang fungsi klik untuk masing-masing tombol
+btnJadm.addEventListener("click", () => {
+  window.open(links.Jadm, "_blank");
+});
+
 btnJadUTS.addEventListener("click", () => {
   window.open(links.JadUTS, "_blank");
 });
