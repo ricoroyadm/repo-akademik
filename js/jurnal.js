@@ -52,6 +52,10 @@ const links = {
   SyamM: "https://drive.google.com/drive/folders/1W4dSf4aWPbzsDhTzCS-3fdC4mjH2MM5s?usp=drive_link",
   Dwi: "https://drive.google.com/drive/folders/1fd7hDTlbmCKT7cqckACCgm-PrOOsUWE7?usp=drive_link",
   Fara: "https://drive.google.com/drive/folders/1WFWFt5FBu7pXQLYmOCorBMZCnN37w4GB?usp=sharing",
+  Rico: "https://drive.google.com/drive/folders/1FioYWK1FgO0FYItGBsTXuyWOiRUtG4jA?usp=sharing",
+  Anna: "https://drive.google.com/drive/folders/1fBx82C24DoAMyCvBttgWbuQs2VSH6VsP?usp=sharing",
+  Ilham: "https://drive.google.com/drive/folders/15N8UY_6LyFm9dNL7q1ap-b445zG1Sb9b?usp=sharing",
+  Aisyah: "https://drive.google.com/drive/folders/1Y8jzkI-P9xRO6lGDUrVnQyW3tpoeu5p0?usp=sharing",
 };
 
 // 2. Ambil semua elemen button
@@ -99,6 +103,10 @@ const btnSisM = document.getElementById("btnSisM");
 const btnSyamM = document.getElementById("btnSyamM");
 const btnDwi = document.getElementById("btnDwi");
 const btnFara = document.getElementById("btnFara");
+const btnRico = document.getElementById("btnRico");
+const btnAnna = document.getElementById("btnAnna");
+const btnIlham = document.getElementById("btnIlham");
+const btnAisyah = document.getElementById("btnAisyah");
 
 // 3. Pasang fungsi klik untuk masing-masing tombol
 btnAde.addEventListener("click", () => {
@@ -275,4 +283,20 @@ btnDwi.addEventListener("click", () => {
 
 btnFara.addEventListener("click", () => {
   window.open(links.Fara, "_blank");
+});
+
+btnRico.addEventListener("click", () => {
+  window.open(links.Rico, "_blank");
+});
+
+btnAnna.addEventListener("click", () => {
+  window.open(links.Anna, "_blank");
+});
+
+btnIlham.addEventListener("click", () => {
+  window.open(links.Ilham, "_blank");
+});
+
+btnAisyah.addEventListener("click", () => {
+  window.open(links.Aisyah, "_blank");
 });
