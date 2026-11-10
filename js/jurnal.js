@@ -51,6 +51,7 @@ const links = {
   SisM: "https://drive.google.com/drive/folders/1tZUHgnNoafwhNpwHPeCRv9Jqbz5YTvJX?usp=drive_link",
   SyamM: "https://drive.google.com/drive/folders/1W4dSf4aWPbzsDhTzCS-3fdC4mjH2MM5s?usp=drive_link",
   Dwi: "https://drive.google.com/drive/folders/1fd7hDTlbmCKT7cqckACCgm-PrOOsUWE7?usp=drive_link",
+  Fara: "https://drive.google.com/drive/folders/1WFWFt5FBu7pXQLYmOCorBMZCnN37w4GB?usp=sharing",
 };
 
 // 2. Ambil semua elemen button
@@ -97,6 +98,7 @@ const btnNoeM = document.getElementById("btnNoeM");
 const btnSisM = document.getElementById("btnSisM");
 const btnSyamM = document.getElementById("btnSyamM");
 const btnDwi = document.getElementById("btnDwi");
+const btnFara = document.getElementById("btnFara");
 
 // 3. Pasang fungsi klik untuk masing-masing tombol
 btnAde.addEventListener("click", () => {
@@ -269,4 +271,8 @@ btnSyamM.addEventListener("click", () => {
 
 btnDwi.addEventListener("click", () => {
   window.open(links.Dwi, "_blank");
+});
+
+btnFara.addEventListener("click", () => {
+  window.open(links.Fara, "_blank");
 });
